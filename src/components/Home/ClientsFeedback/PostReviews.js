@@ -24,7 +24,7 @@ const reviews= [
 
 const PostReviews = () => {
 //     const handleAddReviews =()=>{
-//         fetch('http://localhost:5000/addReviews', {
+//         fetch('https://powerful-temple-34845.herokuapp.com/addReviews', {
 //         method:'POST',
 //         headers: {'Content-Type':'application/json'},
 //         body: JSON.stringify(reviews)

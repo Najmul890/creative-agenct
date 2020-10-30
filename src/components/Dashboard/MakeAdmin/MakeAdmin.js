@@ -10,7 +10,7 @@ const MakeAdmin = () => {
     const onSubmit = (data, e) => {
         const newAdminInfo= {  adminEmail:data.email  };
         
-        fetch('http://localhost:5000/addAdmin', {
+        fetch('https://powerful-temple-34845.herokuapp.com/addAdmin', {
         method:'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify(newAdminInfo)

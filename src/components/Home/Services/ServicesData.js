@@ -25,7 +25,7 @@ const servicesData = [
 
 const ServicesData = () => {
 //     const handleAddServices =()=>{
-//         fetch('http://localhost:5000/addServices', {
+//         fetch('https://powerful-temple-34845.herokuapp.com/addServices', {
 //         method:'POST',
 //         headers: {'Content-Type':'application/json'},
 //         body: JSON.stringify(servicesData)

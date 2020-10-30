@@ -7,7 +7,7 @@ const OrderedServices = () => {
     const [services, setServices]=useState([]);
     console.log(services)
     useEffect(()=>{
-        fetch('http://localhost:5000/orderedAllServices')
+        fetch('https://powerful-temple-34845.herokuapp.com/orderedAllServices')
         .then(res=> res.json())
         .then(data=> setServices(data))
     },[])

@@ -13,7 +13,7 @@ const OrderReview = () => {
     const onSubmit = (data) => {
                 const newReview= {...auth.user, img:auth.user.photo, reviewInfo:data  };
         
-                fetch('http://localhost:5000/addReview', {
+                fetch('https://powerful-temple-34845.herokuapp.com/addReview', {
                 method:'POST',
                 headers: {'Content-Type':'application/json'},
                 body: JSON.stringify(newReview)

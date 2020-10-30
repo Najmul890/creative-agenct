@@ -14,7 +14,7 @@ const OrderForm = () => {
     
     
     useEffect(()=>{
-        fetch('http://localhost:5000/services/' +serviceId)
+        fetch('https://powerful-temple-34845.herokuapp.com/services/' +serviceId)
         .then(res=> res.json())
         .then(data=> setService(data))
     },[serviceId])
@@ -24,7 +24,7 @@ const OrderForm = () => {
     const onSubmit = (data, e) => {
         const newOrder= {...auth.user, orderInfo:data,  img:service.iconImg };
  
-        fetch('http://localhost:5000/addOrderInfo', {
+        fetch('https://powerful-temple-34845.herokuapp.com/addOrderInfo', {
          method:'POST',
          headers: {'Content-Type':'application/json'},
          body: JSON.stringify(newOrder)
