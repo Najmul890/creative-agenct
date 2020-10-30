@@ -1,0 +1,13 @@
+.service-card img{
+    transition: 0.7s;
+}
+.service-card{
+    transition: 0.7s;
+    cursor:pointer
+}
+.service-card:hover img{
+    transform:rotate(360deg);
+}
+.service-card:hover {
+    background-color: #fbd062;
+}

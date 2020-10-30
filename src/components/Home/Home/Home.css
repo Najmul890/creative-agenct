@@ -1,0 +1,26 @@
+.color-light{
+    color: #fbd062
+}
+.bg-color-light{
+    background-color: #fbd062;
+}
+.color-dark{
+    color:#111430
+}
+.bg-color-dark{
+    background-color: #111430;
+}
+.main-btn{
+    background-color:#111430;
+    color:#fff;
+    padding: 5px 20px;
+    border: 2px solid #111430;
+    font-size: 18px;
+    transition: 0.5s;
+    cursor: pointer
+ }
+ .main-btn:hover{
+     color: #111430;
+     font-size: 18px;
+     background: transparent;
+ }

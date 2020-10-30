@@ -1,0 +1,4 @@
+.header-sec{
+    height:620px;
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+}
